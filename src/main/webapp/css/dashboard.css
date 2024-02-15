@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+
+.heading{
+    font-size: 40px;
+    margin: 15px;
+
+}
+
+.btn{
+    height: fit-content;
+    width: fit-content;
+    margin: 15px;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    left: 62%;
+    top: 42%;
+}
+
+
+.search-bar{
+    border-radius: 20px;
+    padding: 10px;
+    width: 515px;
+    margin: 15px;
+    border: solid 1px #eee;
+}
+
+.search-btn{
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.note {
+    width: 80%;
+    height: 86%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 15px;
+    box-sizing: border-box;
+    max-width: 250px;
+    padding:10px;
+    /* max-height: 250px; */
+}
+
+.title,
+.content {
+	width:91%;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+
+[contenteditable="true"]:empty:before {
+    content: attr(placeholder);
+    color: #aaa;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: right;
+    margin: 15px;
+}
+
+.mod-btn{
+    margin: 3px;
+    position: relative;
+    border-radius: 20px;
+    border: none;
+    top: 100%;
+    padding: 8px;
+}
